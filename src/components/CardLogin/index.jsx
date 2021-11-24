@@ -5,7 +5,9 @@ import {CardLogin} from "./style";
 function cardLogin(){
     return(
         
-        <CardLogin/>
+        <CardLogin>
+            <h1>Hello World</h1>
+        </CardLogin>
        
     );
 }
