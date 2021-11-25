@@ -13,28 +13,26 @@ function CardLogin(){
             if (nomeUsuario === "admin" && senhaUsuario === "1234") {
                 <Link to={`/home`}/>
             }
-            alert("Usuário não encontrado!! \n Tente novamente");
-            
-        };  
+        alert("\nUsuário não encontrado!! \n\nTente novamente");
+    };  
 
     return( 
         <>
         <StyleCardLogin>
-            
             <label>
                 Login
-                <input 
+                <input
                 class = "input-login"
-                type="text" 
-                name="nome" 
-                onChange= {(e) => (e)}
+                type="text"
+                value={nomeUsuario}
+                onChange={(e) => setNomeUsuario(e.target.value)}
                 />
                 Senha:
-                <input 
+                <input
                 class = "input-login"
-                type="text" 
-                name="senha" 
-                onChange= {(e) => (e)}
+                type="text"
+                value={senhaUsuario}
+                onChange={(e) => setSenhaUsuario(e.target.value)}
                 />
                 <button onClick={handleSubmit}>Login</button>
             </label>
