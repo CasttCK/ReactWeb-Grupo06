@@ -1,8 +1,9 @@
-import React, { useState, setState } from "react";
-import useStorage from "../../Util/useStorage";
+import React from "react";
 import Context from "./Context";
+import useStorage from "../../Util/useStorage";
 
-const Provider = ({children}) => {
+
+const StoreProvider = ({children}) => {
     
     const [token, setToken] = useStorage('token');
 
@@ -18,4 +19,4 @@ const Provider = ({children}) => {
     )
 }
 
-export default Provider;
+export default StoreProvider;
