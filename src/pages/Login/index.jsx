@@ -5,7 +5,9 @@ import "./style.css";
 
 function Login(){
     return (
-        <UserLogin/>
+        <div className = "page-login">
+            <UserLogin/>
+        </div>
     )
 }
 

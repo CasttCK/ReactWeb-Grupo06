@@ -1,0 +1,17 @@
+body{
+    
+    margin:0%;
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(167, 14, 14)
+}
+
+.teste-div{
+    
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+}
