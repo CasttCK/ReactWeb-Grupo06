@@ -28,7 +28,6 @@ body{
     margin-bottom: 5px;
     color: #979797;
     font-size: 30px;
-    /* margin-left: 33rem; */
   }
   
   .user-login__form-control input {
@@ -37,7 +36,6 @@ body{
     border: 1px solid #BBBBBB;
     height: 36px;
     padding: 5px 10px;
-   /* margin-left: 32.5rem; */
   }
   
   .user-login__submit-button {
