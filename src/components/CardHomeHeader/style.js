@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyleCardHome = styled.div`
+export const StyleCardHomeHeader = styled.div`
     
     .home-header{
         position: absolute;
@@ -14,7 +14,6 @@ export const StyleCardHome = styled.div`
                 font-size: 38px;
                 margin-left: 5%;
                 margin-top: 2.5rem;
-                
             }
     }
 
@@ -43,6 +42,9 @@ export const StyleCardHome = styled.div`
         font-size: 20px;
         display: block;
         align-items: center;
-        color: white
+    }
+    
+    .linkTo{
+        color: white;
     }
 `

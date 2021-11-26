@@ -1,11 +1,12 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
-import { StyleCardHome } from "./style"
+import { StyleCardHomeHeader } from "./style"
 
-function CardHome(){
+function CardHomeHeader(){
     return(
         <>
-        <StyleCardHome>
+        <StyleCardHomeHeader>
         <header className= "home-header">
             <nav className= "nav-home-header">
                <h2>E-Commerce Serratec</h2>
@@ -21,14 +22,14 @@ function CardHome(){
                         type= "submit"
                         className= "nav-home-button"
                     >
-                        Sair
+                        <Link to="/" className= "linkTo">Sair</Link>
                     </button>
                </div>
             </nav>
         </header>
-        </StyleCardHome>
+        </StyleCardHomeHeader>
         </>
     )
 }
 
-export default CardHome;
+export default CardHomeHeader;

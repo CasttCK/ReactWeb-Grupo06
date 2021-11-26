@@ -1,12 +1,16 @@
 import React from "react";
-import CardHome from "../../components/CardHome";
+import CardHomeHeader from "../../components/CardHomeHeader";
+import CardHomeCarrinho from "../../components/CardHomeCarrinho";
+
+
 
 import "./style.css";
 
 function Home(){
     return (
         <div className = "page-home">
-            <CardHome/>
+            <CardHomeHeader/>
+            <CardHomeCarrinho/>
         </div>
     )
 }
