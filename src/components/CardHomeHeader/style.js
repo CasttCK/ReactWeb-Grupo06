@@ -24,7 +24,7 @@ export const StyleCardHomeHeader = styled.div`
         border-radius: 0.5rem;
         left: 60%;
         top: 2.5rem;
-        background: rgba(252, 248, 248, 0.37);
+        background: rgb(199, 199, 199);
     }
 
     .nav-home-button{
