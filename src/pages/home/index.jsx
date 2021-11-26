@@ -1,10 +1,13 @@
 import React from "react";
+import CardHome from "../../components/CardHome";
 
 import "./style.css";
 
 function Home(){
     return (
-        <h1>Home</h1>
+        <div className = "page-home">
+            <CardHome/>
+        </div>
     )
 }
 
