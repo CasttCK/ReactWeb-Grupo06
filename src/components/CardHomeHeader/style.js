@@ -15,13 +15,14 @@ export const StyleCardHomeHeader = styled.div`
                 font-size: 38px;
                 margin-left: 5%;
                 margin-top: 2.5rem;
-            }
+            }   
     }
 
     .nav-home-input{
         position: absolute;
         width: 20rem;
         height: 3rem;
+        border: none;
         border-radius: 0.5rem;
         left: 60%;
         top: 2.5rem;
@@ -32,6 +33,7 @@ export const StyleCardHomeHeader = styled.div`
         position: absolute;
         width: 5rem;
         height: 3rem;
+        border: none;
         border-radius: 1.5rem;
         background: rgb(43, 155, 219);
         left: 90%;

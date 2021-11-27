@@ -16,6 +16,7 @@ export const StyleCardHomeBody = styled.div`
         padding-left: 5px;
         background-color: white;
         width: 30%;
+        border: none;
         border-radius: 20px;
         box-shadow: 0 2px 10px;
         align-items: center;
@@ -37,6 +38,7 @@ export const StyleCardHomeBody = styled.div`
     
         width: 70%;
         height: 2rem;
+        border: none;
         border-radius: 9px;
         background: rgb(43, 155, 219);
 
