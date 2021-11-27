@@ -33,4 +33,22 @@ export const StyleCardHomeBody = styled.div`
         border-radius: 10px;
     }
 
+    .card-button{
+    
+        width: 70%;
+        height: 2rem;
+        border-radius: 9px;
+        background: rgb(43, 155, 219);
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .linkTo{
+        color: white;
+        text-decoration-line: none;
+    }
+
 `

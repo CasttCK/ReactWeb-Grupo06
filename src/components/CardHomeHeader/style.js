@@ -10,6 +10,7 @@ export const StyleCardHomeHeader = styled.div`
         top: 0px;
         background: rgb(172, 182, 187);
             h2{
+                color: gray;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 38px;
                 margin-left: 5%;
@@ -46,5 +47,6 @@ export const StyleCardHomeHeader = styled.div`
     
     .linkTo{
         color: white;
+        text-decoration-line: none;
     }
 `

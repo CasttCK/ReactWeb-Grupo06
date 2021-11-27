@@ -16,6 +16,10 @@ export const StyleCardHomeCarrinho = styled.div`
         display: flex;
         margin-left: 45%;
     }
+    .linkTo{
+        color: gray;
+        text-decoration-line: none;
+    }
 
     .foto-carrinho{
         width: 3rem;

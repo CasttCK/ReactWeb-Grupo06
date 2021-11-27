@@ -13,8 +13,12 @@ function Card(){
             <img className= "img-card" src={Celular} alt="Celular" />
             <h2 className= "card-title">Smartphone Samsung</h2>
             <p className= "card-description">R$ 1.500,00</p>
-            <button className= "card-button">Comprar</button>
-            <button className= "card-button">Adicionar ao carrinho</button>
+            <button 
+                type= "submit"
+                className= "card-button"
+                >
+                    <Link to="/carrinho" className= "linkTo">Comprar</Link>
+            </button>
         </div>
         </>       
     )
