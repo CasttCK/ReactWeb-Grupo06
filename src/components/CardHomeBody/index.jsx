@@ -9,30 +9,13 @@ import { StyleCardHomeBody } from "./style"
 function Card(){
     return(
         <>
-        <div className= "card">
-            <div className= "card-body">
-                <img className= "img-card" src={Celular} alt="Celular" />
-                <h2 className= "card-title">Smartphone Samsung</h2>
-                <p className= "card-description">R$ 1.500,00</p>
-            </div>
+        <div className= "card-body">
+            <img className= "img-card" src={Celular} alt="Celular" />
+            <h2 className= "card-title">Smartphone Samsung</h2>
+            <p className= "card-description">R$ 1.500,00</p>
             <button className= "card-button">Comprar</button>
+            <button className= "card-button">Adicionar ao carrinho</button>
         </div>
-        {/* <div className= "card">
-            <div className= "card-body">
-                <img className= "img-card" src={Colcha} alt="Colcha" />
-                <h2 className= "card-title">Colcha de casal</h2>
-                <p className= "card-description">R$ 120,00</p>
-            </div>
-            <button className= "card-button">Comprar</button>
-        </div>
-        <div className= "card">
-            <div className= "card-body">
-                <img className= "img-card" src={Tenis} alt="Tenis" />
-                <h2 className= "card-title">Tênis Nike</h2>
-                <p className= "card-description">R$ 200,00</p>
-            </div>
-            <button className= "card-button">Comprar</button>
-        </div> */}
         </>       
     )
 }
@@ -41,11 +24,9 @@ function CardHomeCarrinho(){
     return(
         <>
         <StyleCardHomeBody>
-            <div className= "div-cards">
-                <Card />
-                <Card />
-                <Card />
-            </div>
+            <Card />
+            <Card />
+            <Card />
         </StyleCardHomeBody>
         </>
 
