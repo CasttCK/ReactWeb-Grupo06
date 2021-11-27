@@ -9,12 +9,33 @@ export const StyleCardHomeFooter = styled.div`
     margin-left: -1rem;
     padding-right: 1.5rem;
     width: 100%;
-    height: 10rem;
+    height: 12rem;
     background-color: white;
 
     .div-info-footer{
-        text-decoration-line: none;
-        margin-left: 1rem;
-        font-family: 'Ubuntu', sans-serif;
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        gap: 3rem;
+        margin-left: 30%;
+    }
+
+    .linkFooter{
+       text-decoration-line: none;
+       font-family: 'Ubuntu', sans-serif;
+       color: gray;
+       font-size: 1.5rem;
+    }
+
+    .div-selo-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25rem;
+    }
+
+    .foto-selo{
+        width: 8rem;
+        margin-left: 2.5rem;
     }
 `
