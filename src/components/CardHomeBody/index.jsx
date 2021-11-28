@@ -2,7 +2,7 @@ import React from "react";
 import Celular from "../../Assets/IMG/Celular.jpg";
 // import Colcha from "../../Assets/IMG/Colcha.jpg";
 // import Tenis from "../../Assets/IMG/Tenis.jpg";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 import { StyleCardHomeBody } from "./style"
 
