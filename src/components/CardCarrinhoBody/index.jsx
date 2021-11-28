@@ -6,7 +6,7 @@ import { StyleCardCarrinhoBody } from "./style";
 function CardCarrinho(){
     return(
         <StyleCardCarrinhoBody>
-        <h1>Carrinho</h1>
+
         </StyleCardCarrinhoBody>
     )
 }
