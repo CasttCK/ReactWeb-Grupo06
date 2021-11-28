@@ -10,7 +10,7 @@ export const StyleCardHomeFooter = styled.div`
     padding-right: 1.5rem;
     width: 100%;
     height: 12rem;
-    background-color: white;
+    background: rgb(199, 199, 199);
 
     .div-info-footer{
         width: 100%;
