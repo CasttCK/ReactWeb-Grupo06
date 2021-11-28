@@ -1,18 +1,27 @@
 import React from 'react';
+import { BiTrash } from 'react-icons/bi';
 
 import './Card.css';
 
-function CardApresentacaoCarrinho({produto}){
+function CardApresentacaoCarrinho({produto, onClickDelete}){
   return(
-    <div className="promotion-card">
+    <div className="carrinho-card">
       <img
         src={produto.fotoLink}
         alt={produto.descricao}
-        className="promotion-card__image"
+        className="carrinho-card__image"
       />
-    <div className="promotion-card__info">
-      <h1 className="promotion-card__title">{produto.nome}</h1>
-      <span className="promotion-card__price">R$ {produto.valor},00</span>
+    <div className="carrinho-card__info">
+      <h1 className="carrinho-card__title">{produto.nome}</h1>
+      <h3 className="carrinho-card__descricao">{produto.descricao}</h3>
+      <span className="carrinho-card__price">R$ {produto.valor},00</span>
+      <button
+        type="button"
+        className="carrinho-card__delete-button"
+        onClick={onClickDelete}
+      >
+        <BiTrash />
+      </button>
     </div>
   </div>
   )

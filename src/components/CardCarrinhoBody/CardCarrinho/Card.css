@@ -1,4 +1,4 @@
-.promotion-card {
+.carrinho-card {
     height: 8rem;
     border-radius: 8px;
     border: 1px solid #c3c3c3;
@@ -9,60 +9,40 @@
     position: relative;
   }
   
-  .promotion-card__image {
+  .carrinho-card__image {
     max-width: 100px;
     margin-right: 30px;
+    margin-left: 2%;
   }
   
-  .promotion-card__info {
+  .carrinho-card__info {
     display: flex;
     align-items: center;
-    
+    margin-left: 1%;
+    gap: 9rem;
   }
   
-  .promotion-card__title {
+  .carrinho-card__title {
     font-family: sans-serif;
   }
+
+  .carrinho-card__descricao{
+    font-family: sans-serif;
+    color: gray;
+  }
   
-  .promotion-card__price {
+  .carrinho-card__price {
     font-family: sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: #3498db;
   }
-  
-  .promotion-card__footer {
-    display: flex;
-    align-items: center;
-  }
-  
-  .promotion-card__comment {
-    color: #95a5a6;
-    font-weight: 700;
-    max-width: 345px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  
-  .promotion-card__comments-count {
-    margin-left: auto;
-    margin-right: 20px;
-    color: #3498db;
-    background-color: unset;
-    border: unset;
-    white-space: nowrap;
-  }
-  
-  .promotion-card__edit-button {
-    margin-left: 10px;
-  }
-  
-  .promotion-card__delete-button {
+
+  .carrinho-card__delete-button {
     border: unset;
     background-color: unset;
-    font-size: 18px;
-    position: absolute;
+    font-size: 25px;
+    color: red;
     top: 8px;
     right: 8px;
   }
