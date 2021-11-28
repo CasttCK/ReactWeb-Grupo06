@@ -6,6 +6,7 @@ import { StyleCardHomeBody } from "./style"
 
 function CardHomeBody(){
     const [produtosData, setProdutosData] = useState(Produtos)
+
     return(
         <>
         <StyleCardHomeBody>
