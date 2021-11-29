@@ -43,6 +43,10 @@
     border: unset;
     background-color: unset;
     font-size: 25px;
+  }
+
+  .linkTo{
     color: red;
+    cursor: pointer;
   }
   

@@ -1,9 +1,10 @@
 import React from 'react';
 import { BiTrash } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
 
 import './Card.css';
 
-function CardApresentacaoCarrinho({produto, onClickDelete}){
+function CardApresentacaoCarrinho({produto}){
   return(
     <div className="carrinho-card">
       <img
@@ -16,11 +17,10 @@ function CardApresentacaoCarrinho({produto, onClickDelete}){
         <h3 className="carrinho-card__descricao">{produto.descricao}</h3>
         <span className="carrinho-card__price">R$ {produto.valor},00</span>
         <button
-          className="carrinho-card__delete-button"
           type="button"
-          onClick={onClickDelete}
+          className="carrinho-card__delete-button"
         >
-          <BiTrash />
+          <Link className= "linkTo" to= "/"> <BiTrash /></Link>
         </button>
       </div>
   </div>

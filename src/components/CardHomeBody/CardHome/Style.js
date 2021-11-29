@@ -15,7 +15,6 @@ export const StyleCardHome = styled.div`
         align-items: center;
         display: flex;
         flex-direction: column;
-       
         cursor: pointer;
         transition: transform 200ms ease-in;
     }
